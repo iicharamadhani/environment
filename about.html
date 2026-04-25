@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .hero.section {
+            background-image: url(asset/earth.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 75vh;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            min-height: 75vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div id="navWrap" class="nav-wrapper">
+            
+        <!-- TOPBAR -->
+         <div class="topbar d-flex justify-content-between align-items-center">
+        <!-- KIRI -->
+         <div>
+            <i class="bi bi-envelope"></i> environment@gmail.com
+            <i class="bi bi-telephone ms-3"></i> +0123456789
+        </div>
+        <!-- KANAN -->
+         <div>
+            <i class="bi bi-facebook me-2"></i>
+            <i class="bi bi-twitter me-2"></i>
+            <i class="bi bi-instagram me-2"></i>
+            <i class="bi bi-pinterest me-2"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+
+        <!-- LOGO -->
+        <a href="index.html" class="navbar-brand fw-bold text-success">Environs</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+          <!-- MENU -->
+          <ul class="navbar-nav ms-auto me-3">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-dark">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link text-dark">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link text-dark">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="causes.html" class="nav-link text-dark">Causes</a>
+            </li>
+            <li class="nav-item">
+              <a href="events.html" class="nav-link text-dark">Events</a>
+            </li>
+
+            <!-- DROPDOWN -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" data-bs-toggle="dropdown">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                <li><a class="dropdown-item" href="volunteer.html">Volunteer</a></li>
+                <li><a class="dropdown-item" href="donation.html">Donation</a></li>
+                <li><a class="dropdown-item" href="error.html">404 Error</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link text-dark">Contact</a>
+            </li>
+          </ul>
+
+          <!-- BUTTON -->
+          <a href="#" class="btn-donate">Donate Now</a>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+    <div class="hero section" id="beranda">
+        <div class="overlay d-flex justify-content-center align-items-center text-center">
+            <div class="text-white">
+                <h1 class="display-5 fw-bold">About Us</h1>
+                <p class="fs-4">Menggerakkan aksi nyata untuk menciptakan lingkungan yang lebih hijau dan berkelanjutan.</p>
+            </div>
+        </div> 
+    </div>
+    <script>
+window.addEventListener("scroll", function() {
+  let nav = document.getElementById("navWrap");
+
+  if (window.scrollY > 100) {
+    nav.classList.add("scrolled");
+  } else {
+    nav.classList.remove("scrolled");
+  }
+});
+</script>
+
+<section class="about-section py-5" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="asset/econotego.jpg" class="img-fluid rounded shadow" alt="Eco Sign">
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <span class="about-badge">About Us</span>
+                    <h2 class="about-title display-6">Tujuan Kami Adalah Menjaga Kelestarian Alam</h2>
+                    <p class="text-muted mt-3">Kami adalah organisasi yang berdedikasi untuk memulihkan ekosistem dan mengedukasi masyarakat tentang pentingnya keberlanjutan. Bersama, kita bisa menciptakan dunia yang lebih hijau untuk generasi mendatang.</p>
+                    
+                    <div class="tab-box">
+                        <nav class="nav nav-tabs nav-tabs-custom mb-3" id="nav-tab" role="tablist">
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-about">About</button>
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-mission">Mission</button>
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-vision">Vision</button>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="tab-about">
+                            <h6 class="fw-bold text-uppercase small">Tentang Kami</h6>
+                            <p class="small mb-0">
+                              Mengurangi dampak pemanasan global melalui aksi penanaman hutan kembali dan kampanye pengurangan limbah plastik secara berkelanjutan.
+                            </p>
+                          </div>
+                          <div class="tab-pane fade" id="tab-mission">
+                            <h6 class="fw-bold text-uppercase small">Misi Kami</h6>
+                            <p class="small mb-0">
+                              Mendorong aksi nyata dalam pelestarian lingkungan melalui program penanaman pohon.
+                            </p>
+                          </div>
+                          <div class="tab-pane fade" id="tab-vision">
+                            <h6 class="fw-bold text-uppercase small">Visi Kami</h6>
+                            <p class="small mb-0">
+                              Mewujudkan dunia yang lebih hijau, bersih, dan berkelanjutan untuk generasi mendatang.
+                            </p>
+                          </div>
+                        </div>
+                        <button class="btn-readmore">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer id="footer">
+  <div id="footer-main">
+    <div class="container">
+      <div class="row g-5">
+       
+        <div class="col-md-3">
+          <h6>Newsletter</h6>
+          <p>Subscribe to our newsletter and stay updated on all our environmental programs and activities.</p>
+          <div class="footer-newsletter d-flex mt-3">
+            <input type="email" placeholder="Type your email..." />
+            <button>Apply</button>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <h6>Our Services</h6>
+          <ul>
+            <li><a href="#">Green Turtle</a></li>
+            <li><a href="#">White Tiger</a></li>
+            <li><a href="#">Social Ecology</a></li>
+            <li><a href="#">Livestock</a></li>
+            <li><a href="#">Beauty of Life</a></li>
+            <li><a href="#">Protect for You</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-3">
+          <h6>Volunteer</h6>
+          <ul>
+            <li><a href="#">Karen Dawson</a></li>
+            <li><a href="#">Jack Simmons</a></li>
+            <li><a href="#">Michael Linen</a></li>
+            <li><a href="#">Gina Olsen</a></li>
+            <li><a href="#">Millicent Channing</a></li>
+            <li><a href="#">Caroline Suring</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-3">
+          <h6>Our Gallery</h6>
+          <div class="footer-gallery">
+            <img src="asset/gallery1.jpg" alt="g1" />
+            <img src="asset/forest2.jpg" alt="g2" />
+            <img src="asset/gallery2.jpg" alt="g3" />
+            <img src="asset/forest3.jpg" alt="g4" />
+            <img src="asset/gallery3.jpg" alt="g5" />
+            <img src="asset/forest4.jpg" alt="g6" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer-bottom">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+      <div>
+        <a href="#" class="text-success fw-bold text-decoration-none me-1"><i class="bi bi-leaf-fill me-1"></i>Environs</a>
+        &copy; 2025. All Rights Reserved.
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="footer-social">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-pinterest"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="ms-4">
+          <a href="#" class="me-2"><i class="bi bi-heart-fill text-danger"></i></a>
+          <a href="#"><i class="bi bi-star-fill text-warning"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <a href="#" class="btn-up"><i class="bi bi-arrow-up"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        window.onscroll = function() {
+            var header = document.getElementById("mainHeader");
+            if (window.pageYOffset > 80) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+        };
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
